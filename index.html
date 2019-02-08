@@ -124,7 +124,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     flashvars.auth_token = "eb22213e62af95771b37345deca12feebb5ac915";
     flashvars.username = "webkinzsignaturetimb";
     // KEEP THIS INFORMATION SAFE
-  flashvars.clientURL = "https://ajcontent.akamaized.net/1541/ajclient.swf?v=4";
+  flashvars.clientURL = "/ajclient.swf";
     var params = {};
     params.quality = "high";
     params.bgcolor = "#242833";
@@ -137,7 +137,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     attributes.id = "flashContent";
     attributes.name = "flashContent";
     attributes.align = "middle";
-    swfobject.embedSWF("https://ajcontent.akamaized.net/1541/preloader.swf?v=4", "flashContent", "900", "550", swfVersionStr, xiSwfUrlStr, flashvars, params, attributes, embedSWFCallback);
+    swfobject.embedSWF("/preloader.swf", "flashContent", "900", "550", swfVersionStr, xiSwfUrlStr, flashvars, params, attributes, embedSWFCallback);
     // JavaScript enabled so display the flashContent div in case it is not replaced with a swf object.
     swfobject.createCSS("#flashContent", "display:block;text-align:left;z-index:95;color:#FFF;");
 </script>
